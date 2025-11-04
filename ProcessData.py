@@ -29,7 +29,7 @@ def main():
 
     Data.append((lastName, firstName, user, grade_major))
   for line in Data:
-    output = line[0] + ", " + line[1] + ", " + line[2] + ", " + line[3]
+    output = line[0] + ", " + line[1] + ", " + line[2] + ", " + line[3] + "\n"
     #check over last line
     outFile.write(output)
 
